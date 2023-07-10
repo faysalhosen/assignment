@@ -1,0 +1,38 @@
+/* banner section stars */
+*{
+    margin:0px;
+}
+.banner-img{
+    width: 430px;
+    height: 450px;
+    margin-top:90px;
+
+}
+.banner-container{
+    height: 280px;
+    background-color:pink;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10%;
+
+}
+.banner-hedding{
+    font-size:45px;
+    align-items: center;
+}
+.banner-description{
+    font-size:18px;
+    margin-top: 25px;
+}
+.btn{
+    margin-top: 15px;
+    padding:15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:crimson;
+    border-radius:4px solid black;
+    color:white;
+   
+}
+/* banner section ends */
