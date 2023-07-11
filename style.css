@@ -3,67 +3,187 @@
 
 /* banner section stars */
 
-
-.container{
-    max-width: 1000px;
-    margin: 0 auto;
+body{
+    font-family: Lato;
+    margin: 0;
 }
 
+.container{
+    max-width:1100px;
+    margin: 0 auto;  
+}
 
+.header{
+    background: rgba(229, 84, 115, 0.10);
+}
 
-
+.banner-section{
+    max-width: 100%;
+    padding: 50px 0 0;
+    display: flex;
+    gap:95px;
+}
 
 .banner-img{
-    width: 635px;
-    height: 800px;
+    width: 400px;
+    height: 550px;
 
 }
-.container{
-    background-color:#ffe2e9;
-    display: flex;
-    justify-content:center;
-    width: 1440px;
-    height: 800px;
-}
-.banner-headding{
-    padding-top:100px;
-    font-size:62px;
+
+.banner-heading{
+    padding-top:50px;
+    padding-right: 50px;
+    font-size:60px;
     margin-top: 15px;
     color: #272727;
-    font-family: Lato;
     font-style: normal;
     font-weight: 800;
 }
-.btn{
-    background-color: #E55473;
-    font-family: Lato;
-    font-size: 20px;
-    font-style: normal;
-    font-weight:700;
-    line-height: normal;
-    
-    padding: 20px 43px;
-    gap: 10px;
-    color: #FFF;
 
-    
-   
-}
 .banner-description{
-    color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
+color: rgba(39, 39, 39, 0.60);
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
+margin-bottom: 50px;
+}
+
+.btn{
+    background-color: #E55473;
+    border:none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight:700;
+    line-height: normal;
+    padding: 15px 30px;
+    gap: 10px;
+    color: #FFF;  
+   
 }
 /* banner section ends */
 
 
+.ad-img-container{
+    flex-grow: 4;
+}
+
+.ad-img{
+    width:318px;
+    height: 420px;
+}
+
+main{
+ background: rgba(229, 84, 115, 0.10);
+}
+
 .ad-banner{
+    width: 100%;
+    margin-top: 100px;
+    padding-top:35px; 
     display:flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     text-align: center;
-    width: 590px;
+    gap: 200px;
+
+}
+
+
+.discount-title{
+    display:block;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.ad-banner-info{
+    flex-grow: 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.ad-description{
+    color:rgba(39,39,39, 0.60)
+    font-size 15px;
+    font-weight:800;
+    margin-bottom:25px;
+
+    
+}
+.ad-color{
+    color: red;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.primary-btn{
+    width: 30%;
+    padding:10px 20px;
+     background-color: #E55473;
+     border:none;
+     border-radius:5px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
+}
+.ad-container{
+    margin:130px 0;
+}
+
+/* --------------- */
+.info-banner-container{
+    background-color: white;
+    margin-top:100px;
+}
+
+.banner-text{
+
+    text-align: center;
+}
+.banner-head{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.banner-text-description{
+    padding: 24px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+
+.banner-info-flex{
+    gap: 15px;
+    display:flex;
+    justify-content: center;
+}
+
+/* -------------- */
+.info-container{
+    background-image: url("./assets/Rectangle\ 9.png");
+    width: 1440px;
+    height: 449px;
+
+}
+.info-text{
+    justify-content:center;
 }
