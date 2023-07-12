@@ -41,12 +41,12 @@ body{
 }
 
 .banner-info p{
-color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-margin-bottom: 50px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 50px;
 }
 
 .btn{
@@ -67,15 +67,16 @@ margin-bottom: 50px;
 
 .bonus-container{
     text-align: center;
+    margin: 100px;
     
 }
 .bonus-text{
-flex-direction: column;
-color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
+    flex-direction: column;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
 }
 
-.first-img img{
+/* .first-img img{
     padding: 100px;
 }
 .first-img img{
@@ -97,24 +98,42 @@ font-size: 18px;
     height: 438px;
     background-color: #c1bcbd42;
     
-}
+}  */
+ 
 
+ .col-one{
+    width: 310px;
+    height: 428px;
+    
 
+ }
 
 
 
 .bonus-img-section{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
     
+}
+.img{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img a{
+     color: #272727;
+     font-weight: 700;
+     font-size: 24px;
 }
 
 
 
-
-
- /* bonus section stats here */
+ /* bonus section end here */
 
 
 .ad-img-container{
@@ -127,7 +146,7 @@ font-size: 18px;
 }
 
 main{
- background: rgba(229, 84, 115, 0.10);
+    background: rgba(229, 84, 115, 0.10);
 }
 
 .ad-banner{
@@ -179,10 +198,10 @@ main{
 .primary-btn{
     padding:5px 25px;
     gap: 10px;
-     background-color: #E55473;
-     color: #FFF;
-     border:none;
-     border-radius:5px;
+    background-color: #E55473;
+    color: #FFF;
+    border:none;
+    border-radius:5px;
     font-size: 20px;
     font-weight: 700;
     
@@ -195,12 +214,14 @@ main{
 
 /* --------------- */
 .photo-album{
+    max-width: 1100px;
     background-color: white;
     margin-top:100px;
 }
 
 
 .photo-title{
+    margin-top: 1;
     color: #272727;
     text-align: center;
     font-size: 40px;
@@ -209,10 +230,10 @@ main{
     line-height: normal;
 }
 .photo-text{
+    margin-bottom: 30px;
     padding: 24px;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: Lato;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -272,20 +293,50 @@ height: 296px;
 
 .input-info{
     display: flex;
+    gap: 15px;
     width: 700px;
 }
 
 .input-area{
-    width: 80%;
+    width: 70%;
+
+
 }
 
 .input-area input{
     width: 100%;
+    border:none;
+    padding: 10px 15px;
+    border-radius: 8px;
 }
 
 .subscription-button{
-    width: 20%;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E55473;
+    color:#FFF;
+    border-radius: 5px;
+    font-size: 5px;
+    font-weight:700;
+    line-height: normal;
+    padding: 5px 10px;
+    color: #FFF;  
+    margin-left: 20px;
+    
 }
+.subscription-button button{
+    display: block;
+    background-color: #E55473;
+    color:#FFF;
+    border:none;
+}
+
+.subscription-button:active{
+    transform: scale(.97);
+}
+
 
 
 
@@ -331,11 +382,11 @@ height: 296px;
 }
 .buttom-footer{
     color: rgba(255, 255, 255, 0.40);
-text-align: center;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
     
 }
 
